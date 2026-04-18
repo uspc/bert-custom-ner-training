@@ -189,7 +189,7 @@ trainer = Trainer(
     args=training_args,
     train_dataset=dataset["train"],
     eval_dataset=dataset["test"],
-    tokenizer=tokenizer,
+    #tokenizer=tokenizer,
     data_collator=data_collator,
     compute_metrics=compute_metrics
 )
